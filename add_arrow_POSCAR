@@ -1,3 +1,4 @@
+#对POSCAR的某一列都加上某个值
 with open('POSCAR_WTe_010_10','r') as f1:
     content = f1.readlines()
 
