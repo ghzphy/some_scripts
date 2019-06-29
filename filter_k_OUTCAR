@@ -10,6 +10,7 @@ def kxkykz():
                 continue
             if 'position of ions in fractional coordinates' in line:
                 flag = 'N'
+                break
             if flag == 'Y':
                 kpoints.write(line.replace('    0.006','     0'))
 kxkykz()
